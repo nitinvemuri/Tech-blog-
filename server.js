@@ -18,13 +18,13 @@ const sess = {
     secret: 'Something Secret',
     cookie: {},
     resave: false,
-    saveUnitialized : true,
+    saveUninitialized : true,
     store: new SequelizeStore({
         db: sequelize
     })
 };
 
-app.use(session(sess));
+app.use(session(sess))
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
