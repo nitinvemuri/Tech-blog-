@@ -1,7 +1,5 @@
-const { json } = require("sequelize/types");
-
-async function newFormHandler(e) {
-    e.preventDefault();
+async function newFormHandler(event) {
+    event.preventDefault();
 
     const title = document.querySelector('input[name="post-title]').value;
     const post_content = document.querySelector('input[name="post-content"]').value
