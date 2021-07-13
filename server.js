@@ -5,6 +5,11 @@ const exphbs = require('express-handlebars');
 const helpers = require('./utils/helpers')
 const hbs = exphbs.create({helpers});
 const path = require('path')
+const Handlebars = require('handlebars')
+
+Handlebars.registerHelper("format_plural", function() {
+    //
+})
 
 require('dotenv').config();
 

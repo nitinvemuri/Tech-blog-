@@ -80,7 +80,7 @@ router.get('/login', (req, res) => {
         },
         {
           model: User,
-          attributes: ['username', 'twitter', 'github']
+          attributes: ['username',]
         }
       ]
     })

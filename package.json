@@ -30,7 +30,7 @@
     "handlebars": "^4.7.7",
     "mysql2": "^2.2.5",
     "nodeman": "^1.1.2",
-    "nodemon": "^2.0.9",
+    "nodemon": "^2.0.12",
     "path": "^0.12.7",
     "sequelize": "^6.6.5"
   }
