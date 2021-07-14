@@ -8,7 +8,7 @@ const path = require('path')
 const Handlebars = require('handlebars')
 
 Handlebars.registerHelper("format_plural", function() {
-    //
+    
 })
 
 require('dotenv').config();
