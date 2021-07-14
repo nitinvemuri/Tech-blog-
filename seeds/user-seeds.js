@@ -12,10 +12,6 @@ const userData = [
     {
         email: "yunglean@gmail.com",
         password: "p3"
-    },
-    {
-        email: "johto@gmail.com",
-        password: "4"
     }
 ]
 
