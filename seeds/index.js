@@ -5,16 +5,16 @@ const sequelize = require('../Config/connection');
 
 const workingSeeds = async () => {
     await sequelize.sync({ force: true});
-    console.log('synced');
+    console.log('Synced');
 
     await seedsPost();
-    console.log('post seed');
+    console.log('post seed is through');
 
     await seedComments();
-    console.log('commnets seed');
+    console.log('commnets seed is through');
 
     await seedsUser();
-    console.log('User seed')
+    console.log('User seed is through')
 
     process.exit(0);
 };

@@ -5,27 +5,27 @@ const commentData = [
     {
         user_id: 5,
         post_id: 1,
-        comment_text: "Wow, amazing work!"
+        comment_text: "Wow"
     },
     {
         user_id: 4,
         post_id: 1,
-        comment_text: "Awesome! kudos to everyone who have contributed"
+        comment_text: "Awesomed"
     },
     {
         user_id: 3,
         post_id: 1,
-        comment_text: "This is great news!"
+        comment_text: "YOOOOOOOOOOOOOOOOOOOOOOOOOo!"
     },
     {
         user_id: 6,
         post_id: 1,
-        comment_text: "This is one of our biggest and the most awaited feature. Keep up the good work!"
+        comment_text: "IM THE BEST!"
     },
     {
         user_id: 2,
         post_id: 1,
-        comment_text: "Nice tool!"
+        comment_text: "Your mom is a tool!"
     }
 ]
 
